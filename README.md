@@ -14,7 +14,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 
 
-Since I'm on break from college classes for the rest of the month of decemeber and beginning of January, I thought this would be something super fun to do! And something to keep my coding skills fresh!
+Since I'm on break from college classes for the rest of the month of Decemeber and beginning of January, I thought this would be something super fun to do! And something to keep my coding skills fresh!
 
 I am really excited to try all of these.....
 
