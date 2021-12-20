@@ -26,28 +26,28 @@ public class BinaryDiagnostic {
 					tempBinaryNumbers = temp.split("(?!^)");
 				}
 				int j = 0;
-				for (String s : tempBinaryNumbers) {
-                    if (s.equals("1")) {
-                        oneCount[j]++;
-                    } else {
-                        zeroCount[j]++;
-                    }
-                    j++;
+			for (String s : tempBinaryNumbers) {
+                    		if (s.equals("1")) {
+                        		oneCount[j]++;
+                    		} else {
+                        		zeroCount[j]++;
+                    		}
+                    		j++;
                 }
-				for (int i = 0; i < oneCount.length; i++) {
-	                if (oneCount[i] > zeroCount[i]) {
-	                	mostCommonBit += "1";
-	                	leastCommonBit += "0";
-	                } else {
-	                    mostCommonBit += "0";
-	                    leastCommonBit += "1";
+			for (int i = 0; i < oneCount.length; i++) {
+	                	if (oneCount[i] > zeroCount[i]) {
+	                		mostCommonBit += "1";
+	                		leastCommonBit += "0";
+	                	} else {
+	                    		mostCommonBit += "0";
+	                    		leastCommonBit += "1";
 	                }
 	            }
 			System.out.println(mostCommonBit);
 			System.out.println(leastCommonBit);
 			BigInteger mostNumber = new BigInteger(mostCommonBit, 2);
-	        BigInteger leastNumber = new BigInteger(leastCommonBit, 2);
-	        System.out.println(mostNumber.intValue() * leastNumber.intValue());
+	        	BigInteger leastNumber = new BigInteger(leastCommonBit, 2);
+	        	System.out.println(mostNumber.intValue() * leastNumber.intValue());
 			}
 		}
 		catch(FileNotFoundException e) {
