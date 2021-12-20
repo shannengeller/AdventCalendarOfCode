@@ -18,9 +18,7 @@ Since I'm on break from college classes for the rest of the month of Decemeber a
 
 I am really excited to try all of these.....
 
-They will be all documented in this Repo, even if I don't finish them! I will definitely try to make the optimal solution but they may not be perfect!
-
-WOOOOOOOOOOO
+I will be doing it in mostly Java, but maybe a little bit of python to help me learn python a little bit more!
 
 
 
