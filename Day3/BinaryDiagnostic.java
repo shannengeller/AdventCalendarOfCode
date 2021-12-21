@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.math.BigInteger;
 import java.util.Scanner;
 
+// this solution doesn't work the way I wanted to originally have it work... changing this after I am done all the challenges :)
 public class BinaryDiagnostic {
 	
 	public static void main(String[] args) {
